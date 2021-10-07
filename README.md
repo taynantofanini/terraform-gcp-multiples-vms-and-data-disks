@@ -1,11 +1,11 @@
 # **GCP VPN HA Terraform** #
 
-Deploy in Google Cloud one or more VMs with one or more (or none) data disks using HashiCorp Terraform
+Deploy in Google Cloud (one or more) VMs with none, one or more data disks using HashiCorp Terraform
 
 ## The code deploys ##
 
-* Google Compute Address Internal (you can specify an IP)
-* Google Compute Address External (with decision to use or not)
+* Internal Address (you can specify an IP)
+* External Address (with decision to use or not)
 * Boot Disk
 * Data Disks (with decidion: none, one or more)
 * Atacched Disk (how many you need according data disks)
@@ -25,7 +25,7 @@ The following dependencies must be available:
 
 ### Service Account ###
 
-* Ensure the you have a [service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts) with sufficient [permissions](https://cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn#expandable-1).
+* Ensure the you have a [service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts) with [permissions](https://cloud.google.com/iam/docs/understanding-roles#compute-engine-roles) and [roles/compute.networkAdmin](https://cloud.google.com/iam/docs/understanding-roles#compute-engine-roles)
 
 ## **Simple Usage** ##
 
