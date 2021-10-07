@@ -27,7 +27,6 @@ The following dependencies must be available:
 
 * Ensure the you have a [service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts) with sufficient [permissions](https://cloud.google.com/network-connectivity/docs/vpn/how-to/creating-ha-vpn#expandable-1).
 
-
 ## **Simple Usage** ##
 
 1. Clone the repository:
