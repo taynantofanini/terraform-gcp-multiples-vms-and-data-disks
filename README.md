@@ -25,7 +25,10 @@ The following dependencies must be available:
 
 ### Service Account ###
 
-* Ensure the you have a [service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts) with [roles/compute.admin](https://cloud.google.com/iam/docs/understanding-roles#compute-engine-roles) and [roles/compute.networkAdmin](https://cloud.google.com/iam/docs/understanding-roles#compute-engine-roles)
+Ensure the you have a [service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts) with following roles:
+
+* [``roles/compute.admin``](https://cloud.google.com/iam/docs/understanding-roles#compute-engine-roles)
+* [``roles/compute.networkAdmin``](https://cloud.google.com/iam/docs/understanding-roles#compute-engine-roles)
 
 ## **Simple Usage** ##
 
