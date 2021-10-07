@@ -1,4 +1,4 @@
-# **GCP VPN HA Terraform** #
+# **GCP Multiples VMs Multiples Data Disks Terraform** #
 
 Deploy in Google Cloud (one or more) VMs with none, one or more data disks using HashiCorp Terraform
 
